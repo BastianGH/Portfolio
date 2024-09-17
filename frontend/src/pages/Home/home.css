@@ -1,3 +1,33 @@
 section {
   margin: 2rem 0;
 }
+
+.section-subcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+section:nth-child(2n + 1) .section-subcontainer {
+  flex-direction: row-reverse;
+}
+.section-subcontainer > * {
+  width: 47%;
+}
+
+.section-subcontainer img {
+  height: 400px;
+  object-fit: cover;
+  background-color: #339;
+  border-radius: 20px;
+}
+
+.section-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section-description p {
+  margin: 0;
+  font-size: 1.2rem;
+}

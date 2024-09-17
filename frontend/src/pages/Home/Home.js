@@ -6,11 +6,59 @@ export const Home = () => {
       <h1>Voici Mon Portfolio</h1>
       <section id="about">
         <h2>À Propos de moi</h2>
-        <div></div>
+        <div className="section-subcontainer">
+          <img src="./assets/images/Photo-BP.jpg" alt="Bastian PUSSEY" />
+          <div className="section-description">
+            <p>
+              Je m'appelle Bastian PUSSEY, je suis un jeune homme de 26 ans et
+              je viens de Belfort, une petite ville de Franche-Comté.
+            </p>
+            <p>
+              Je suis dévellopeur Full Stack junior, et j'aimerai acquérir plus
+              d'experience en tant que tel. C'est pourquoi je suis en recherche
+              active d'emploi.
+            </p>
+            <p>
+              Je trouve personnellement le côté Full Stack attrayant car j'aime
+              beaucoup le principe de couteau suisse que présente ce métier. De
+              surcroît, je suis intéressé par tous les aspects du web.
+            </p>
+            <p>
+              Bien que j'ai une forte apétence pour le Front-End, l'aspect de
+              logique pure des autres languages backend, ainsi que les
+              mécanismes lié au déploiement continue et les enjeux de la
+              sécurité sont particulièrement attrayant pour moi
+            </p>
+          </div>
+        </div>
       </section>
       <section id="experience">
         <h2>Expérience</h2>
-        <div></div>
+        <div className="section-subcontainer">
+          <img src="./assets/images/logo-iris.png" alt="Iris Digital" />
+          <div className="section-description">
+            <p>
+              Lors de ma formation OpenClassrooms, j'ai été en alternance chez
+              Iris-Digital. Cette ensemble de travail et étude en pure autonomie
+              s'est avéré être très formateur pour moi, j'ai ainsi pu acquérir
+              une certaine résilience et une excellent capacité d'adaptation.
+            </p>
+            <p>
+              Durant mon temps chez Iris Digital, J'ai du développer deux sites
+              vitrines : Iris Digital ainsi que Artisanat Van. Il s'agit de deux
+              application que j'ai développer à l'aide de Vuejs, le premier a
+              été fait pour mon entreprise, afin qu'il ai une interface de
+              communication avec les clients, le second a été fait pour un
+              client, tous les deux ont exprimé leur grande satisfaction, vis à
+              vis du produit final.
+            </p>
+            <p>
+              J'ai également commencé à développer une troisieme application en
+              trois tiers, le projet portant le nom de Mangabo. L'équipé a pris
+              la relève à mon départ et à pu terminer le site.
+            </p>
+          </div>
+        </div>
       </section>
       <section id="realisations">
         <h2>Réalisations</h2>
