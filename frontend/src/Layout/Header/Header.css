@@ -1,15 +1,15 @@
-header{
+header {
   display: flex;
   justify-content: space-between;
-  margin: 10px;
+  margin: 0 5rem;
+  padding: 2rem 0;
 }
-.header-img{
+
+.header-nav {
   width: 50%;
 }
-.header-nav{
-  width: 70%;
-}
-.header-nav-list{
+
+.header-nav-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
