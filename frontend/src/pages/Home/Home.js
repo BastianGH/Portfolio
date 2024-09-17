@@ -1,8 +1,8 @@
-import './main.css';
+import "./home.css";
 
-function Main() {
+export const Home = () => {
   return (
-    <main>
+    <div>
       <h1>Voici Mon Portfolio</h1>
       <section id="about">
         <h2>À Propos de moi</h2>
@@ -20,8 +20,6 @@ function Main() {
         <h2>Mes outils</h2>
         <div></div>
       </section>
-    </main>
+    </div>
   );
-}
-
-export default Main;
+};

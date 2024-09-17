@@ -1,23 +1,23 @@
 import "./Header.css";
-import logo from "./logo.svg";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <header className="header">
-      <a to="/">Bastian PUSSEY</a>
+      <NavLink to="/">Bastian PUSSEY</NavLink>
       <nav className="header-nav">
         <ul className="header-nav-list">
           <li>
-            <a to="#about">À Propos de moi</a>
+            <NavLink to="about">À Propos de moi</NavLink>
           </li>
           <li>
-            <a to="#experience">Expérience</a>
+            <NavLink to="experience">Expérience</NavLink>
           </li>
           <li>
-            <a to="#realisations">Réalisations</a>
+            <NavLink to="realisations">Réalisations</NavLink>
           </li>
           <li>
-            <a to="#tools">Mes outils</a>
+            <NavLink to="tools">Mes outils</NavLink>
           </li>
         </ul>
       </nav>
