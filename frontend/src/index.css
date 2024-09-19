@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -19,12 +20,17 @@ body,
 #container {
   min-height: 85vh;
   position: relative;
-  margin: 2rem 5rem;
+  padding: 2% 5%;
+  background-color: #334;
+}
+main {
+  padding-bottom: 5rem;
 }
 footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  right: 0;
+  left: 0;
 }
 ul {
   margin: 0;
@@ -35,6 +41,7 @@ li {
 }
 a {
   text-decoration: none;
+  color: white;
 }
 img {
   object-fit: cover;

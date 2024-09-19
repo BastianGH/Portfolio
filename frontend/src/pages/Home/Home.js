@@ -62,11 +62,67 @@ export const Home = () => {
       </section>
       <section id="realisations">
         <h2>Réalisations</h2>
-        <div></div>
+        <div className="section-subcontainer">
+          <img src="./assets/images/Artisanat-Van.png" alt="Artisanat Van" />
+          <div className="section-description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+          </div>
+        </div>
       </section>
       <section id="tools">
         <h2>Mes outils</h2>
-        <div></div>
+        <div className="section-subcontainer">
+          <img src="./assets/images/Github.png" alt="Github BastianGH" />
+          <div className="section-description">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse semper consectetur est, eget elementum est rhoncus
+              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
+              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
+              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
+              vitae venenatis iaculis. Nulla.
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   );

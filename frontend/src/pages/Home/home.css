@@ -1,21 +1,33 @@
+h1 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
 section {
-  margin: 2rem 0;
+  padding-bottom: 3.5rem;
+}
+
+section h2 {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid white;
 }
 
 .section-subcontainer {
   display: flex;
   justify-content: space-between;
+  margin: 2rem 0;
 }
 
 section:nth-child(2n + 1) .section-subcontainer {
   flex-direction: row-reverse;
 }
+
 .section-subcontainer > * {
   width: 47%;
 }
 
 .section-subcontainer img {
-  height: 400px;
+  max-height: 400px;
   object-fit: cover;
   background-color: #339;
   border-radius: 20px;

@@ -1,8 +1,8 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 5rem;
-  padding: 2rem 0;
+  padding: 2rem 5rem;
+  background-color: #226;
 }
 
 .header-nav {
