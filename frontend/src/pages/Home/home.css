@@ -27,8 +27,8 @@ section:nth-child(2n + 1) .section-subcontainer {
 }
 
 .section-subcontainer img {
-  max-height: 400px;
-  object-fit: cover;
+  max-height: 450px;
+  object-fit: scale-down;
   background-color: #339;
   border-radius: 20px;
 }

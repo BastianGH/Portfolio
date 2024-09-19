@@ -5,8 +5,13 @@ header {
   background-color: #226;
 }
 
+.title-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
 .header-nav {
-  width: 50%;
+  width: 40%;
 }
 
 .header-nav-list {

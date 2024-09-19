@@ -1,4 +1,17 @@
 footer {
   padding: 3rem 5% 2rem;
-  background-color: #226;
+  background-color: #223;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
