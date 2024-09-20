@@ -1,4 +1,20 @@
+.title-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-div select {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 0.3rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 30px;
 }
