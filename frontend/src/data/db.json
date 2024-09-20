@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Iris Digital",
-      "img": "",
+      "img": "logo-iris.png",
       "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat pulvinar dui, sit amet volutpat nulla. In hac habitasse platea. ",
       "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo felis, hendrerit ac malesuada eu, tincidunt eu risus. Aenean luctus hendrerit iaculis. Nulla dictum sem id blandit placerat. Aliquam condimentum placerat arcu, a ultricies tellus congue vel. Nam iaculis leo et nisl iaculis congue. Pellentesque tempor quam eget ligula gravida tincidunt. Cras finibus, quam et tempus pellentesque, magna magna aliquam risus, at faucibus augue justo et purus. Aliquam eget ipsum non nunc congue laoreet. Sed ligula diam, aliquam eget vehicula at, ultrices sed metus. Integer malesuada ut est a luctus. Curabitur nec dolor non est elementum porttitor quis id odio. Maecenas rhoncus dolor odio, vitae dictum dui iaculis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vulputate lacinia interdum. Vestibulum quis pulvinar nisl, ut fermentum lectus. Maecenas blandit lectus sed. ",
       "github": "https://github.com/Iris-Digital-Sas/Iris-front",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "title": "Artisanat Van",
-      "img": "",
+      "img": "Artisanat-Van.png",
       "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
       "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ante ut ipsum sollicitudin porttitor. Cras non mauris nisl. Duis lacinia massa congue, dignissim metus a, tempus nisl. Ut id volutpat turpis, ac malesuada lectus. Curabitur ullamcorper enim eu nunc commodo, sit amet dapibus odio placerat. In id faucibus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nunc ante, scelerisque sit amet malesuada sodales, convallis sit amet lacus. Nulla nec est leo. Phasellus ut fermentum nibh. Vestibulum vitae purus eu felis consectetur finibus et nec orci. Praesent dignissim eget augue non maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut auctor lobortis lorem, mattis tempor arcu interdum nec. Praesent egestas ultricies congue. Nulla in velit sit amet nisl posuere eleifend eu eget dui. Nulla id rutrum urna. Sed tempus felis sed tempor pulvinar. Curabitur sed ex et mi cursus. ",
       "github": "https://github.com/Iris-Digital-Sas/artisanat-van",

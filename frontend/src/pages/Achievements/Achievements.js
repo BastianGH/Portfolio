@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "../../components/card/card";
 import data from "../../data/db.json";
+import "./achievements.css";
 
 export const Achievements = () => {
   console.log(data.achievements);
@@ -11,7 +12,8 @@ export const Achievements = () => {
         {data.achievements.map((achievement) => (
           <Card
             key={achievement.id}
-            img={achievement.image}
+            id={achievement.id}
+            img={achievement.img}
             title={achievement.title}
             desc={achievement.short_desc}
           />
