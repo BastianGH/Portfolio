@@ -7,7 +7,7 @@ function Card({ id, img, title, desc }) {
       <figure>
         <img src={`assets/images/${img}`} alt={title} className="card-img" />
         <figcaption>
-          <h2>{title} </h2>
+          <h2>{title}</h2>
           <p>{desc}</p>
         </figcaption>
       </figure>
