@@ -1,0 +1,16 @@
+.details-container img {
+  float: left;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.link-container {
+  display: flex;
+  gap: 50px;
+}
+
+.link {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
