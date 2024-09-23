@@ -15,6 +15,7 @@ section h2 {
 .section-subcontainer {
   display: flex;
   justify-content: space-between;
+  min-height: 300px;
   margin: 2rem 0;
 }
 
@@ -22,14 +23,11 @@ section:nth-child(2n + 1) .section-subcontainer {
   flex-direction: row-reverse;
 }
 
-.section-subcontainer > * {
-  width: 47%;
-}
-
 .section-subcontainer img {
-  max-height: 450px;
+  max-height: 50%;
+  width: -webkit-fill-available;
   object-fit: scale-down;
-  background-color: #339;
+  background-color: #334;
   border-radius: 20px;
 }
 
@@ -37,6 +35,27 @@ section:nth-child(2n + 1) .section-subcontainer {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+section:nth-child(-n + 3) img {
+  max-width: 30%;
+}
+
+section:nth-child(-n + 3) .section-description {
+  max-width: 60%;
+}
+
+section:nth-child(n + 4) img {
+  max-width: 52%;
+}
+
+section:nth-child(n + 4) .section-description {
+  gap: 35px;
+  max-width: 45%;
+}
+
+.section-subcontainer > * {
+  max-width: 48%;
 }
 
 .section-description p {

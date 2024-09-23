@@ -1,5 +1,5 @@
-import "./home.css";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 export const Home = () => {
   return (
@@ -11,24 +11,17 @@ export const Home = () => {
           <img src="./assets/images/Photo-BP.jpg" alt="Bastian PUSSEY" />
           <div className="section-description">
             <p>
-              Je m'appelle Bastian PUSSEY, je suis un jeune homme de 26 ans et
-              je viens de Belfort, une petite ville de Franche-Comté.
+              En tant que développeur FullStack, j'aime allier autonomie et
+              flexibilité pour mener à bien chaque projet.
             </p>
             <p>
-              Je suis dévellopeur Full Stack junior, et j'aimerai acquérir plus
-              d'experience en tant que tel. C'est pourquoi je suis en recherche
-              active d'emploi.
+              Mon objectif est de produire un code rigoureux, clair et structuré
+              qui non seulement fonctionne, mais qui reste facile à comprendre
+              et à maintenir.
             </p>
             <p>
-              Je trouve personnellement le côté Full Stack attrayant car j'aime
-              beaucoup le principe de couteau suisse que présente ce métier. De
-              surcroît, je suis intéressé par tous les aspects du web.
-            </p>
-            <p>
-              Bien que j'ai une forte apétence pour le Front-End, l'aspect de
-              logique pure des autres languages backend, ainsi que les
-              mécanismes lié au déploiement continue et les enjeux de la
-              sécurité sont particulièrement attrayant pour moi
+              J'accorde une grande importance à l'architecture des projets pour
+              garantir une solution évolutive et bien pensée.
             </p>
             <Link to="about" className="section-link">
               En apprendre plus sur moi
@@ -42,24 +35,17 @@ export const Home = () => {
           <img src="./assets/images/logo-iris.png" alt="Iris Digital" />
           <div className="section-description">
             <p>
-              Lors de ma formation OpenClassrooms, j'ai été en alternance chez
-              Iris-Digital. Cette ensemble de travail et étude en pure autonomie
-              s'est avéré être très formateur pour moi, j'ai ainsi pu acquérir
-              une certaine résilience et une excellent capacité d'adaptation.
+              J'ai eu la chance de travailler pour Iris Digital, une startup
+              dynamique spécialisée dans la création de sites vitrines
             </p>
             <p>
-              Durant mon temps chez Iris Digital, J'ai du développer deux sites
-              vitrines : Iris Digital ainsi que Artisanat Van. Il s'agit de deux
-              application que j'ai développer à l'aide de Vuejs, le premier a
-              été fait pour mon entreprise, afin qu'il ai une interface de
-              communication avec les clients, le second a été fait pour un
-              client, tous les deux ont exprimé leur grande satisfaction, vis à
-              vis du produit final.
+              Mon rôle principal a été de développer des sites, dont celui de la
+              startup elle-même et un projet pour un client.
             </p>
             <p>
-              J'ai également commencé à développer une troisieme application en
-              trois tiers, le projet portant le nom de Mangabo. L'équipé a pris
-              la relève à mon départ et à pu terminer le site.
+              Durant cette expérience, j'ai principalement utilisé Vue.js sous
+              Ubuntu, ce qui m'a permis d'acquérir une grande maîtrise dans la
+              gestion de projets front-end dans un environnement startup.
             </p>
             <Link to="experience" className="section-link">
               Plus d'informations sur mon experience
@@ -73,31 +59,21 @@ export const Home = () => {
           <img src="./assets/images/Artisanat-Van.png" alt="Artisanat Van" />
           <div className="section-description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
+              Mon parcours est marqué par deux projets professionnels et
+              plusieurs projets réalisés dans le cadre de mes formations chez
+              OpenClassroom et AJC.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
+              Chaque projet a été l'occasion de renforcer mes compétences
+              techniques, notamment avec Vue.js, React et Angular
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
+              Ce portfolio en cours de développement constitue également l'un de
+              mes projets personnels, mettant en valeur mon savoir-faire à
+              travers une interface soignée et fonctionnelle.
             </p>
             <Link to="achievements" className="section-link">
-              Voir toutes les réalisations
+              Voir toutes mes réalisations
             </Link>
           </div>
         </div>
@@ -108,28 +84,14 @@ export const Home = () => {
           <img src="./assets/images/Github.png" alt="Github BastianGH" />
           <div className="section-description">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
+              Je m'appuie sur une boîte à outils variée qui inclut Visual Studio
+              Code pour le développement, GitHub pour la gestion de version, et
+              Firebase, que j'utilise fréquemment dans mes projets.
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse semper consectetur est, eget elementum est rhoncus
-              non. Pellentesque non ante sed ipsum porttitor auctor. Mauris
-              magna ex, porttitor nec sagittis quis, aliquam in elit. Integer
-              sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
-              vitae venenatis iaculis. Nulla.
+              En plus de cela, j'ai une bonne maîtrise de Trello pour la gestion
+              de projets, et je suis à l'aise avec les principaux frameworks
+              front-end : Vue.js, React.js et Angular.
             </p>
             <Link to="about" className="section-link">
               En apprendre plus
