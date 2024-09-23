@@ -1,11 +1,12 @@
 import "./home.css";
+import { Link } from "react-router-dom";
 
 export const Home = () => {
   return (
     <div>
       <h1>Voici Mon Portfolio</h1>
       <section id="about">
-        <h2>À Propos de moi</h2>
+        <h2>à propos de moi</h2>
         <div className="section-subcontainer">
           <img src="./assets/images/Photo-BP.jpg" alt="Bastian PUSSEY" />
           <div className="section-description">
@@ -29,6 +30,9 @@ export const Home = () => {
               mécanismes lié au déploiement continue et les enjeux de la
               sécurité sont particulièrement attrayant pour moi
             </p>
+            <Link to="about" className="section-link">
+              En apprendre plus sur moi
+            </Link>
           </div>
         </div>
       </section>
@@ -57,6 +61,9 @@ export const Home = () => {
               trois tiers, le projet portant le nom de Mangabo. L'équipé a pris
               la relève à mon départ et à pu terminer le site.
             </p>
+            <Link to="experience" className="section-link">
+              Plus d'informations sur mon experience
+            </Link>
           </div>
         </div>
       </section>
@@ -89,6 +96,9 @@ export const Home = () => {
               sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
               vitae venenatis iaculis. Nulla.
             </p>
+            <Link to="achievements" className="section-link">
+              Voir toutes les réalisations
+            </Link>
           </div>
         </div>
       </section>
@@ -121,6 +131,9 @@ export const Home = () => {
               sodales neque nibh, ut sodales libero mollis vel. Sed semper ex
               vitae venenatis iaculis. Nulla.
             </p>
+            <Link to="about" className="section-link">
+              En apprendre plus
+            </Link>
           </div>
         </div>
       </section>

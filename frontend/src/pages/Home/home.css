@@ -43,3 +43,12 @@ section:nth-child(2n + 1) .section-subcontainer {
   margin: 0;
   font-size: 1.2rem;
 }
+
+.section-link {
+  align-self: center;
+  background-color: #339;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-size: 1.2em;
+  font-weight: bold;
+}

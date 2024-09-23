@@ -7,11 +7,11 @@ export const Achievements = () => {
   const [achievements, setAchievements] = useState(data.achievements);
 
   function filter(e) {
-    if (e.target.value == "") {
+    if (e.target.value === "") {
       setAchievements(data.achievements);
     } else {
       const filteredArray = data.achievements.filter(
-        (achievement) => achievement.type == e.target.value
+        (achievement) => achievement.type === e.target.value
       );
       setAchievements(filteredArray);
     }
@@ -22,7 +22,7 @@ export const Achievements = () => {
       <div className="title-div">
         <h1>Mes réalisations</h1>
         <div>
-          <label for="project-select">Filter par : </label>
+          <label htmlFor="project-select">Filter par : </label>
           <select
             name="projects"
             id="project-select"
@@ -43,6 +43,8 @@ export const Achievements = () => {
             img={achievement.img}
             title={achievement.title}
             desc={achievement.short_desc}
+            github={achievement.github ? achievement.github : ""}
+            link={achievement.link ? achievement.link : ""}
           />
         ))}
       </div>

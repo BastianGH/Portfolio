@@ -32,6 +32,10 @@ footer {
   right: 0;
   left: 0;
 }
+h1,
+h2 {
+  text-transform: capitalize;
+}
 ul {
   margin: 0;
   padding: 0;

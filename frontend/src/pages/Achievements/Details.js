@@ -15,10 +15,10 @@ export const Details = () => {
 
   useEffect(() => {
     const achievementDetails = data.achievements.filter(
-      (achievement) => achievement.id == id
+      (achievement) => achievement.id === parseInt(id)
     );
     setAchievement(achievementDetails[0]);
-  }, []);
+  }, [id]);
 
   return (
     <div>

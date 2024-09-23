@@ -23,3 +23,15 @@ figcaption {
 figcaption > * {
   margin: 0;
 }
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-links {
+  display: flex;
+  gap: 15px;
+  color: #4b4;
+}
