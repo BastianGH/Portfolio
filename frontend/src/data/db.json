@@ -5,8 +5,12 @@
       "title": "Iris Digital",
       "type": "professional",
       "img": "Iris-Digital.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus volutpat pulvinar dui, sit amet volutpat nulla. In hac habitasse platea. ",
-      "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus justo felis, hendrerit ac malesuada eu, tincidunt eu risus. Aenean luctus hendrerit iaculis. Nulla dictum sem id blandit placerat. Aliquam condimentum placerat arcu, a ultricies tellus congue vel. Nam iaculis leo et nisl iaculis congue. Pellentesque tempor quam eget ligula gravida tincidunt. Cras finibus, quam et tempus pellentesque, magna magna aliquam risus, at faucibus augue justo et purus. Aliquam eget ipsum non nunc congue laoreet. Sed ligula diam, aliquam eget vehicula at, ultrices sed metus. Integer malesuada ut est a luctus. Curabitur nec dolor non est elementum porttitor quis id odio. Maecenas rhoncus dolor odio, vitae dictum dui iaculis sed. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vulputate lacinia interdum. Vestibulum quis pulvinar nisl, ut fermentum lectus. Maecenas blandit lectus sed. ",
+      "short_desc": "J'ai intégré une maquette avec Vue.js pour créer un site vitrine avec des animations, un design responsive, et une optimisation SEO, permettant à l'entreprise de renforcer sa crédibilité et d'attirer de nouveaux clients.",
+      "long_desc": [
+        "Ce projet consistait à développer le site vitrine de l'entreprise Iris Digital en intégrant une maquette réalisée par une designeuse. Mon rôle principal a été de convertir cette vision créative en un site web fonctionnel et responsive, en utilisant le framework Vue.js.",
+        "L'un des principaux défis de ce projet a été de gérer la grande quantité de code, ainsi que les nombreuses animations et transitions qui apportaient une dimension interactive au site. En plus de cela, la transition vers un design responsive a nécessité une attention particulière, afin que le site s'adapte parfaitement aux différents appareils, du mobile à l'écran de bureau. L'amélioration du SEO était également un enjeu clé pour accroître la visibilité en ligne de l'entreprise.",
+        "L'objectif final de ce site était double : offrir une interface moderne et efficace pour que l'entreprise puisse communiquer avec ses clients, mais aussi prouver son expertise en matière de développement web, renforçant ainsi sa crédibilité auprès de potentiels nouveaux clients. Ce projet a été une réussite, car il a permis à l'entreprise d'attirer un client sérieux pour lequel j'ai ensuite réalisé un autre site."
+      ],
       "github": "https://github.com/Iris-Digital-Sas/Iris-front",
       "link": "https://iris-digital.fr/#/"
     },
@@ -15,18 +19,76 @@
       "title": "Artisanat Van",
       "type": "professional",
       "img": "Artisanat-Van.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ante ut ipsum sollicitudin porttitor. Cras non mauris nisl. Duis lacinia massa congue, dignissim metus a, tempus nisl. Ut id volutpat turpis, ac malesuada lectus. Curabitur ullamcorper enim eu nunc commodo, sit amet dapibus odio placerat. In id faucibus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nunc ante, scelerisque sit amet malesuada sodales, convallis sit amet lacus. Nulla nec est leo. Phasellus ut fermentum nibh. Vestibulum vitae purus eu felis consectetur finibus et nec orci. Praesent dignissim eget augue non maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut auctor lobortis lorem, mattis tempor arcu interdum nec. Praesent egestas ultricies congue. Nulla in velit sit amet nisl posuere eleifend eu eget dui. Nulla id rutrum urna. Sed tempus felis sed tempor pulvinar. Curabitur sed ex et mi cursus. ",
+      "short_desc": "J'ai intégré une maquette pour un site vitrine présentant les services et points forts du client avec des animations et un design attrayant. Le site, responsive et optimisé pour le SEO, a satisfait pleinement le client.",
+      "long_desc": [
+        "Pour le projet Artisanat Van, j'ai intégré seul une maquette afin de créer un site vitrine dynamique et attrayant, visant à présenter les services et points forts du client. Le site, développé en Vue.js, met l'accent sur une interface soignée, des animations fluides, et un SEO optimisé pour garantir une bonne visibilité en ligne.",
+        "Dans le cadre de ce projet, mon rôle a été d'intégrer une maquette fournie par le client pour créer un site vitrine professionnel. Le client, spécialisé dans l'artisanat, souhaitait une interface visuellement attrayante pour présenter ses services de manière efficace et captivante. Le défi majeur était de mettre en place de nombreuses animations tout en garantissant une transition fluide vers un design responsive, afin que le site fonctionne parfaitement sur tous les appareils.",
+        "J'ai utilisé Vue.js pour développer ce site, en veillant à ce que l'optimisation du SEO soit au centre de la stratégie, ce qui a permis au client d'améliorer sa visibilité en ligne. Le projet a été couronné de succès, le client étant pleinement satisfait du résultat final. Grâce à cette expérience, nos relations professionnelles sont restées positives et cordiales."
+      ],
       "github": "",
       "link": "https://www.artisanat-van.fr/"
     },
     {
       "id": 3,
-      "title": "Artisanat Van",
-      "type": "personal",
+      "title": "Kasa",
+      "type": "education",
+      "img": "Artisanat-Van.png",
+      "short_desc": "J'ai intégré une maquette en React.js pour maîtriser ce framework. J'ai développé des composants réutilisables, comme un carousel et des cards, tout en assurant une navigation fluide et un site responsive.",
+      "long_desc": [
+        "Dans ce projet, mon rôle consistait à intégrer une maquette en utilisant React.js, avec l'objectif principal de comprendre et de maîtriser ce framework. J'ai appris à structurer mon code en micro-composants réutilisables pour améliorer la lisibilité et la maintenance du code.",
+        "Un des principaux défis a été de créer manuellement des composants comme un carousel, un composant collapse, et des cards. J'ai également mis en place un routing logique pour organiser la navigation du site, y compris une route 404 pour gérer les erreurs de pages inexistantes.",
+        "Le projet devait également être responsive, afin de s'adapter à tous les formats d'écran. Ce projet a été validé rapidement, et mon mentor a été impressionné par ma capacité à livrer un travail de qualité en un temps réduit."
+      ],
+      "github": "https://github.com/BastianGH/Kasa",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "Projet 6 OPC",
+      "type": "education",
       "img": "Artisanat-Van.png",
       "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed ante ut ipsum sollicitudin porttitor. Cras non mauris nisl. Duis lacinia massa congue, dignissim metus a, tempus nisl. Ut id volutpat turpis, ac malesuada lectus. Curabitur ullamcorper enim eu nunc commodo, sit amet dapibus odio placerat. In id faucibus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec nunc ante, scelerisque sit amet malesuada sodales, convallis sit amet lacus. Nulla nec est leo. Phasellus ut fermentum nibh. Vestibulum vitae purus eu felis consectetur finibus et nec orci. Praesent dignissim eget augue non maximus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut auctor lobortis lorem, mattis tempor arcu interdum nec. Praesent egestas ultricies congue. Nulla in velit sit amet nisl posuere eleifend eu eget dui. Nulla id rutrum urna. Sed tempus felis sed tempor pulvinar. Curabitur sed ex et mi cursus. ",
+      "long_desc": ["", "", ""],
+      "github": "https://github.com/BastianGH/Projet-6-OpenClassroom",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "title": "Kanap",
+      "type": "education",
+      "img": "Artisanat-Van.png",
+      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
+      "long_desc": ["", "", ""],
+      "github": "https://github.com/BastianGH/Projet-5-OpenClassroom",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "title": "La Panthère",
+      "type": "education",
+      "img": "La-Panthère.png",
+      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
+      "long_desc": ["", "", ""],
+      "github": "https://github.com/BastianGH/La-panthere",
+      "link": "https://bastiangh.github.io/La-panthere/"
+    },
+    {
+      "id": 7,
+      "title": "Projet 3 OPC",
+      "type": "education",
+      "img": "La-Panthère.png",
+      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
+      "long_desc": ["", "", ""],
+      "github": "https://github.com/BastianGH/Project-3-Openclassroom",
+      "link": ""
+    },
+    {
+      "id": 8,
+      "title": "CodeBook",
+      "type": "education",
+      "img": "CodeBook.png",
+      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
+      "long_desc": ["", "", ""],
       "github": "",
       "link": ""
     }
