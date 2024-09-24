@@ -9,7 +9,11 @@ function Card({ id, img, title, desc, github, link }) {
   return (
     <Link to={`/achievements/${id}`}>
       <figure>
-        <img src={`assets/images/${img}`} alt={title} className="card-img" />
+        <img
+          src={`assets/images/poster/${img}`}
+          alt={title}
+          className="card-img"
+        />
         <figcaption>
           <div className="card-title">
             <h2>{title}</h2>

@@ -27,7 +27,7 @@ export const Details = () => {
       <h1>{achievement.title}</h1>
       <div className="details-container">
         <img
-          src={`../../assets/images/${achievement.img}`}
+          src={`../../assets/images/poster/${achievement.img}`}
           alt={achievement.title}
         />
         <p>{achievement.long_desc}</p>

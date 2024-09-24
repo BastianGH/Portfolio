@@ -5,6 +5,13 @@
       "title": "Iris Digital",
       "type": "professional",
       "img": "Iris-Digital.png",
+      "carousel": [
+        "Iris-Digital-1",
+        "Iris-Digital-2",
+        "Iris-Digital-3",
+        "Iris-Digital-4",
+        "Iris-Digital-5"
+      ],
       "short_desc": "J'ai intégré une maquette avec Vue.js pour créer un site vitrine avec des animations, un design responsive, et une optimisation SEO, permettant à l'entreprise de renforcer sa crédibilité et d'attirer de nouveaux clients.",
       "long_desc": [
         "Ce projet consistait à développer le site vitrine de l'entreprise Iris Digital en intégrant une maquette réalisée par une designeuse. Mon rôle principal a été de convertir cette vision créative en un site web fonctionnel et responsive, en utilisant le framework Vue.js.",
@@ -19,6 +26,13 @@
       "title": "Artisanat Van",
       "type": "professional",
       "img": "Artisanat-Van.png",
+      "carousel": [
+        "Artisanat-Van-1",
+        "Artisanat-Van-2",
+        "Artisanat-Van-3",
+        "Artisanat-Van-4",
+        "Artisanat-Van-5"
+      ],
       "short_desc": "J'ai intégré une maquette pour un site vitrine présentant les services et points forts du client avec des animations et un design attrayant. Le site, responsive et optimisé pour le SEO, a satisfait pleinement le client.",
       "long_desc": [
         "Pour le projet Artisanat Van, j'ai intégré seul une maquette afin de créer un site vitrine dynamique et attrayant, visant à présenter les services et points forts du client. Le site, développé en Vue.js, met l'accent sur une interface soignée, des animations fluides, et un SEO optimisé pour garantir une bonne visibilité en ligne.",
@@ -86,10 +100,10 @@
       "id": 8,
       "title": "CodeBook",
       "type": "education",
-      "img": "CodeBook.png",
+      "img": "Code-Book.png",
       "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
       "long_desc": ["", "", ""],
-      "github": "",
+      "github": "https://gitlab.com/pnk-group1/ajc-project",
       "link": ""
     }
   ]
