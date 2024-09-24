@@ -1,0 +1,15 @@
+.pagenotfound {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+  margin-bottom: 5rem;
+}
+.pagenotfound img {
+  width: 100%;
+}
+.notfound-link {
+  display: flex;
+  gap: 5px;
+}

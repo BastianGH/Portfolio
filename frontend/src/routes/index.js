@@ -6,6 +6,7 @@ import {
   Details,
   Tools,
   About,
+  PageNotFound,
 } from "../pages";
 
 function Routing() {
@@ -18,6 +19,7 @@ function Routing() {
         <Route path="/achievements/:id" element={<Details />} />
         <Route path="/tools" element={<Tools />} />
         <Route path="/about" element={<About />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </>
   );

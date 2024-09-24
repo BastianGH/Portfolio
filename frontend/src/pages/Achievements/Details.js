@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import data from "../../data/db.json";
 
@@ -9,6 +9,7 @@ import "./details.css";
 
 export const Details = () => {
   const params = useParams();
+  const navigate = useNavigate();
   const id = params.id;
 
   const [achievement, setAchievement] = useState({});
@@ -17,6 +18,7 @@ export const Details = () => {
     const achievementDetails = data.achievements.filter(
       (achievement) => achievement.id === parseInt(id)
     );
+    if (achievementDetails.length < 1) navigate("/404");
     setAchievement(achievementDetails[0]);
   }, [id]);
 
