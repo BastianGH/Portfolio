@@ -18,9 +18,6 @@ function Header() {
           <li>
             <NavLink to="achievements">Réalisations</NavLink>
           </li>
-          <li>
-            <NavLink to="tools">Mes outils</NavLink>
-          </li>
         </ul>
       </nav>
     </header>

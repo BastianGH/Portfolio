@@ -93,9 +93,6 @@ export const Home = () => {
               de projets, et je suis à l'aise avec les principaux frameworks
               front-end : Vue.js, React.js et Angular.
             </p>
-            <Link to="about" className="section-link">
-              En apprendre plus
-            </Link>
           </div>
         </div>
       </section>

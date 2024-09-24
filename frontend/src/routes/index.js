@@ -4,7 +4,6 @@ import {
   Experience,
   Achievements,
   Details,
-  Tools,
   About,
   PageNotFound,
 } from "../pages";
@@ -17,7 +16,6 @@ function Routing() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/achievements/:id" element={<Details />} />
-        <Route path="/tools" element={<Tools />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
