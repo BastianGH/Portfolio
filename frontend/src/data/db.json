@@ -58,11 +58,16 @@
     },
     {
       "id": 4,
-      "title": "Projet 6 OPC",
+      "title": "Hot Sauce",
       "type": "education",
       "img": "Artisanat-Van.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": ["", "", ""],
+      "short_desc": "Création d'une API REST sécurisée avec gestion des opérations CRUD, authentification, et connexion à MongoDB Atlas, tout en assurant la sécurité des données et la gestion des fichiers.",
+      "long_desc": [
+        "Mon rôle dans ce projet était de créer une API REST complète à partir de zéro pour un frontend déjà conçu et fourni. L'objectif principal était d'apprendre à construire un serveur backend en implémentant des fonctions CRUD (Create, Read, Update, Delete) avec une architecture propre basée sur des modèles, des routes, et des contrôleurs.",
+        "J'ai conçu et structuré manuellement tous les fichiers nécessaires, notamment pour connecter la base de données MongoDB Atlas, tout en gérant les politiques CORS pour autoriser les échanges sécurisés entre le backend et le frontend. Un système d'authentification basé sur un middleware a été mis en place pour sécuriser l'accès aux différentes routes, garantissant que seules les requêtes autorisées pouvaient interagir avec la base de données.",
+        "Pour renforcer la sécurité des données, j'ai utilisé des modèles pour valider et protéger les entrées, limitant les risques d'attaques telles que l'injection SQL. De plus, j'ai intégré Multer pour gérer le téléchargement et la mise à jour des fichiers images. Grâce à ces outils, l'API permettait une gestion sécurisée des utilisateurs et des données.",
+        "Le projet a été validé par l'examinateur, confirmant l'efficacité de l'API et des bonnes pratiques de sécurité mises en place."
+      ],
       "github": "https://github.com/BastianGH/Projet-6-OpenClassroom",
       "link": ""
     },
@@ -71,8 +76,12 @@
       "title": "Kanap",
       "type": "education",
       "img": "Artisanat-Van.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": ["", "", ""],
+      "short_desc": "J'ai rendu dynamique un frontend préconçu en utilisant JavaScript pour interagir avec un backend via des requêtes AJAX, en générant des éléments HTML et en structurant le code de manière claire.",
+      "long_desc": [
+        "Dans ce projet, j'avais pour mission de rendre la partie frontend dynamique à partir d'un frontend et backend préconçus. L'objectif était d'approfondir mes compétences en JavaScript, notamment dans l'utilisation de requêtes AJAX pour récupérer et envoyer des données.",
+        "J'ai dû générer des éléments HTML de manière dynamique en fonction des données reçues tout en structurant le code de manière claire, réutilisable et maintenable. De plus, l'organisation du projet en plusieurs fichiers, accompagnée de commentaires explicatifs, a permis de rendre chaque partie du code plus lisible et compréhensible. J'ai également veillé à assurer la compatibilité du projet avec différents navigateurs pour garantir une expérience utilisateur fluide et cohérente.",
+        "L'objectif final était d'intégrer pleinement JavaScript dans la gestion des données front-end afin de dynamiser l'interface. Le projet a été validé par l'examinateur, démontrant ainsi ma capacité à utiliser JavaScript pour manipuler efficacement les DOM et interagir avec des APIs."
+      ],
       "github": "https://github.com/BastianGH/Projet-5-OpenClassroom",
       "link": ""
     },
@@ -81,18 +90,25 @@
       "title": "La Panthère",
       "type": "education",
       "img": "La-Panthère.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": ["", "", ""],
+      "short_desc": "J'ai optimisé une page web en améliorant ses performances et son SEO à l'aide de Lighthouse. J'ai apporté des modifications au code et aux images pour offrir une meilleure expérience utilisateur. Le projet a été validé avec succès.",
+      "long_desc": [
+        "Mon rôle dans ce projet était d'optimiser une page web existante. L'objectif principal était d'apprendre et d'appliquer les bonnes pratiques en matière de SEO et d'UX design. Pour cela, j'ai dû revoir le code de la page et utiliser l'outil Lighthouse pour analyser les performances, l'accessibilité, les bonnes pratiques et le SEO du site. J'ai également appris à utiliser GitHub Pages pour \"déployer\" le site et tester les modifications apportées.",
+        "Au cours de ce projet, j'ai apporté plusieurs modifications au code, retouché certaines images, et répertorié les changements effectués ainsi que leur impact sur la qualité du site. Cela m'a permis de prouver le bien-fondé de mes améliorations. Les technologies utilisées incluent HTML et CSS, ainsi que Paint pour la retouche d'images, tout en testant la compatibilité sur les principaux navigateurs web. L'examinateur a été satisfait du travail fourni et de la présentation des résultats."
+      ],
       "github": "https://github.com/BastianGH/La-panthere",
       "link": "https://bastiangh.github.io/La-panthere/"
     },
     {
       "id": 7,
-      "title": "Projet 3 OPC",
+      "title": "Oh my food",
       "type": "education",
       "img": "La-Panthère.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": ["", "", ""],
+      "short_desc": "J'ai intégré une maquette en utilisant Sass pour améliorer l'organisation de mon code et apprendre à utiliser GitHub. Le projet a été validé avec succès.",
+      "long_desc": [
+        "Mon rôle a été d'intégrer une maquette en utilisant Sass, remplaçant ainsi le CSS traditionnel. L'objectif principal du projet était d'apprendre à utiliser Sass et SCSS pour obtenir un code plus structuré et organisé, tout en découvrant l'utilisation de GitHub pour la gestion de version.",
+        "Pour ce projet, j'ai dû organiser mon HTML avec des classes spécifiques pour faciliter le développement des styles. J'ai appris à maîtriser SCSS, en comprenant l'importance d'une structure claire des fichiers, et j'ai réalisé des animations complexes, telles que des spinners de chargement. De plus, j'ai veillé à ce que la page soit entièrement responsive.",
+        "J'ai utilisé Sass ainsi que du simple HTML pour réaliser ce projet. L'examinateur a été satisfait de mon travail, ce qui a permis la validation du projet."
+      ],
       "github": "https://github.com/BastianGH/Project-3-Openclassroom",
       "link": ""
     },
@@ -101,9 +117,13 @@
       "title": "CodeBook",
       "type": "education",
       "img": "Code-Book.png",
-      "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tortor tempor, pretium orci vitae, hendrerit sem. Vivamus et lacus. ",
-      "long_desc": ["", "", ""],
-      "github": "https://gitlab.com/pnk-group1/ajc-project",
+      "short_desc": "J'ai développé un site d'administration pour gérer les produits d'un site utilisateur, en utilisant React et Firebase pour la gestion des données. Le projet a été validé avec succès.",
+      "long_desc": [
+        "Mon rôle a été de créer un site dédié à l'administration des produits utilisés côté utilisateur. Nous avons mis en place deux sites distincts avec deux frameworks différents : l'un destiné aux utilisateurs finaux et l'autre pour la gestion des produits.",
+        "Pour le site d'administration, j'ai utilisé Firebase pour la gestion des données. J'ai donc édité les collections de la nouvelle base de données Firebase et créé un site comprenant un système d'authentification, qui est essentiel pour accéder au reste des fonctionnalités via un système de routing bien pensé. J'ai également implémenté des fonctions CRUD pour permettre aux utilisateurs ayant des privilèges appropriés de gérer les produits. De plus, les requêtes incluent une légère couche de vérification côté front, réalisée grâce à l'utilisation de Vee-validate.",
+        "Pour développer le site, j'ai utilisé React comme framework principal, associé à Firebase pour la gestion des données. L'examinateur a exprimé sa satisfaction concernant le travail réalisé, ce qui a permis la validation du projet."
+      ],
+      "github": "",
       "link": ""
     }
   ]
