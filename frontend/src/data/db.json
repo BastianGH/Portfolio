@@ -46,7 +46,8 @@
       "id": 3,
       "title": "Kasa",
       "type": "education",
-      "img": "Artisanat-Van.png",
+      "img": "Kasa.png",
+      "carousel": ["Kasa-1", "Kasa-2", "Kasa-3", "Kasa-4"],
       "short_desc": "J'ai intégré une maquette en React.js pour maîtriser ce framework. J'ai développé des composants réutilisables, comme un carousel et des cards, tout en assurant une navigation fluide et un site responsive.",
       "long_desc": [
         "Dans ce projet, mon rôle consistait à intégrer une maquette en utilisant React.js, avec l'objectif principal de comprendre et de maîtriser ce framework. J'ai appris à structurer mon code en micro-composants réutilisables pour améliorer la lisibilité et la maintenance du code.",
@@ -58,9 +59,10 @@
     },
     {
       "id": 4,
-      "title": "Hot Sauce",
+      "title": "Hot Takes",
       "type": "education",
-      "img": "Artisanat-Van.png",
+      "img": "Hot-Takes.png",
+      "carousel": ["Hot-Takes-1", "Hot-Takes-2", "Hot-Takes-3", "Hot-Takes-4"],
       "short_desc": "Création d'une API REST sécurisée avec gestion des opérations CRUD, authentification, et connexion à MongoDB Atlas, tout en assurant la sécurité des données et la gestion des fichiers.",
       "long_desc": [
         "Mon rôle dans ce projet était de créer une API REST complète à partir de zéro pour un frontend déjà conçu et fourni. L'objectif principal était d'apprendre à construire un serveur backend en implémentant des fonctions CRUD (Create, Read, Update, Delete) avec une architecture propre basée sur des modèles, des routes, et des contrôleurs.",
@@ -75,7 +77,15 @@
       "id": 5,
       "title": "Kanap",
       "type": "education",
-      "img": "Artisanat-Van.png",
+      "img": "Kanap.png",
+      "carousel": [
+        "Kanap-1",
+        "Kanap-2",
+        "Kanap-3",
+        "Kanap-4",
+        "Kanap-5",
+        "Kanap-6"
+      ],
       "short_desc": "J'ai rendu dynamique un frontend préconçu en utilisant JavaScript pour interagir avec un backend via des requêtes AJAX, en générant des éléments HTML et en structurant le code de manière claire.",
       "long_desc": [
         "Dans ce projet, j'avais pour mission de rendre la partie frontend dynamique à partir d'un frontend et backend préconçus. L'objectif était d'approfondir mes compétences en JavaScript, notamment dans l'utilisation de requêtes AJAX pour récupérer et envoyer des données.",
@@ -90,6 +100,7 @@
       "title": "La Panthère",
       "type": "education",
       "img": "La-Panthère.png",
+      "carousel": ["La-Panthère-1", "La-Panthère-2", "La-Panthère-3"],
       "short_desc": "J'ai optimisé une page web en améliorant ses performances et son SEO à l'aide de Lighthouse. J'ai apporté des modifications au code et aux images pour offrir une meilleure expérience utilisateur. Le projet a été validé avec succès.",
       "long_desc": [
         "Mon rôle dans ce projet était d'optimiser une page web existante. L'objectif principal était d'apprendre et d'appliquer les bonnes pratiques en matière de SEO et d'UX design. Pour cela, j'ai dû revoir le code de la page et utiliser l'outil Lighthouse pour analyser les performances, l'accessibilité, les bonnes pratiques et le SEO du site. J'ai également appris à utiliser GitHub Pages pour \"déployer\" le site et tester les modifications apportées.",
@@ -102,7 +113,8 @@
       "id": 7,
       "title": "Oh my food",
       "type": "education",
-      "img": "La-Panthère.png",
+      "img": "Oh-my-food.png",
+      "carousel": ["Kasa-1", "Kasa-2", "Kasa-3", "Kasa-4"],
       "short_desc": "J'ai intégré une maquette en utilisant Sass pour améliorer l'organisation de mon code et apprendre à utiliser GitHub. Le projet a été validé avec succès.",
       "long_desc": [
         "Mon rôle a été d'intégrer une maquette en utilisant Sass, remplaçant ainsi le CSS traditionnel. L'objectif principal du projet était d'apprendre à utiliser Sass et SCSS pour obtenir un code plus structuré et organisé, tout en découvrant l'utilisation de GitHub pour la gestion de version.",
@@ -110,13 +122,20 @@
         "J'ai utilisé Sass ainsi que du simple HTML pour réaliser ce projet. L'examinateur a été satisfait de mon travail, ce qui a permis la validation du projet."
       ],
       "github": "https://github.com/BastianGH/Project-3-Openclassroom",
-      "link": ""
+      "link": "https://bastiangh.github.io/Project-3-Openclassroom/"
     },
     {
       "id": 8,
       "title": "CodeBook",
       "type": "education",
       "img": "Code-Book.png",
+      "carousel": [
+        "Code-Book-1",
+        "Code-Book-2",
+        "Code-Book-3",
+        "Code-Book-4",
+        "Code-Book-5"
+      ],
       "short_desc": "J'ai développé un site d'administration pour gérer les produits d'un site utilisateur, en utilisant React et Firebase pour la gestion des données. Le projet a été validé avec succès.",
       "long_desc": [
         "Mon rôle a été de créer un site dédié à l'administration des produits utilisés côté utilisateur. Nous avons mis en place deux sites distincts avec deux frameworks différents : l'un destiné aux utilisateurs finaux et l'autre pour la gestion des produits.",
