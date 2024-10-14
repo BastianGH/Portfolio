@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./carousel.css";
 
-function UncontrolledExample({ images }) {
+function CarouselComponent({ images }) {
   return (
     <Carousel fade>
       {images !== undefined &&
@@ -17,4 +17,4 @@ function UncontrolledExample({ images }) {
   );
 }
 
-export default UncontrolledExample;
+export default CarouselComponent;

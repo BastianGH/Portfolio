@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import data from "../../data/db.json";
-import UncontrolledExample from "../../components/carousel/carousel";
+import CarouselComponent from "../../components/carousel/carousel";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -27,9 +27,11 @@ export const Details = () => {
     <div>
       <h1>{achievement.title}</h1>
       <div className="details-container">
-        <UncontrolledExample images={achievement.carousel} />
-        {achievement.long_desc &&
-          achievement.long_desc.map((p, index) => <p key={index}>{p}</p>)}
+        <CarouselComponent images={achievement.carousel} />
+        <div>
+          {achievement.long_desc &&
+            achievement.long_desc.map((p, index) => <p key={index}>{p}</p>)}
+        </div>
         <div className="link-container">
           {achievement.github !== "" ? (
             <a href={achievement.github} className="link">
