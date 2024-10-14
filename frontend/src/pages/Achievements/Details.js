@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import data from "../../data/db.json";
+import UncontrolledExample from "../../components/carousel/carousel";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -20,17 +21,13 @@ export const Details = () => {
     );
     if (achievementDetails.length < 1) navigate("/404");
     setAchievement(achievementDetails[0]);
-    console.log(achievement.long_desc);
   }, [id]);
 
   return (
     <div>
       <h1>{achievement.title}</h1>
       <div className="details-container">
-        <img
-          src={`../../assets/images/poster/${achievement.img}`}
-          alt={achievement.title}
-        />
+        <UncontrolledExample images={achievement.carousel} />
         {achievement.long_desc &&
           achievement.long_desc.map((p, index) => <p key={index}>{p}</p>)}
         <div className="link-container">
