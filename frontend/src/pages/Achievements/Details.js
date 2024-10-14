@@ -20,6 +20,7 @@ export const Details = () => {
     );
     if (achievementDetails.length < 1) navigate("/404");
     setAchievement(achievementDetails[0]);
+    console.log(achievement.long_desc);
   }, [id]);
 
   return (
@@ -30,7 +31,8 @@ export const Details = () => {
           src={`../../assets/images/poster/${achievement.img}`}
           alt={achievement.title}
         />
-        <p>{achievement.long_desc}</p>
+        {achievement.long_desc &&
+          achievement.long_desc.map((p, index) => <p key={index}>{p}</p>)}
         <div className="link-container">
           {achievement.github !== "" ? (
             <a href={achievement.github} className="link">
