@@ -3,7 +3,7 @@ import "./carousel.css";
 
 function CarouselComponent({ images }) {
   return (
-    <Carousel fade>
+    <Carousel fade interval={1500} data-bs-theme="dark" wrap>
       {images !== undefined &&
         images.map((image, index) => (
           <Carousel.Item>
