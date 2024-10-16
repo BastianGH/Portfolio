@@ -22,8 +22,7 @@ function Card({ id, img, title, desc, github, link }) {
               {link !== "" ? <FontAwesomeIcon icon={faGlobe} /> : ""}
             </div>
           </div>
-
-          <p>{desc}</p>
+          <p className="card-p">{desc}</p>
         </figcaption>
       </figure>
     </Link>

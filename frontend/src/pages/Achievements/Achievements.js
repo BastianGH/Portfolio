@@ -18,7 +18,7 @@ export const Achievements = () => {
   }
 
   return (
-    <div>
+    <div className="achievements">
       <div className="title-div">
         <h1>Mes réalisations</h1>
         <div>
