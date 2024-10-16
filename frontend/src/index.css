@@ -50,3 +50,9 @@ a {
 img {
   object-fit: cover;
 }
+
+@media screen and (max-width: 500px) {
+  main {
+    padding-bottom: 10rem;
+  }
+}
