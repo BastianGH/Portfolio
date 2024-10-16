@@ -1,0 +1,27 @@
+.about-img {
+  float: left;
+  width: 30%;
+  margin-right: 2rem;
+  border-radius: 25px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .about-img {
+    width: 50%;
+  }
+  .about-content {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-img {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+}

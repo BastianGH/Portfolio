@@ -1,3 +1,4 @@
+import "./about.css";
 import React from "react";
 
 export const About = () => {
@@ -5,11 +6,11 @@ export const About = () => {
     <div>
       <h1>à propos de moi</h1>
       <section>
-        <div className="xp-content">
+        <div className="about-content">
           <img
             src="./assets/images/photo-BP.jpg"
             alt="Bastian PUSSEY"
-            className="xp-img"
+            className="about-img"
           />
           <p>
             Je suis un développeur FullStack avec une solide expérience en

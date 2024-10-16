@@ -23,7 +23,7 @@ section:nth-child(2n + 1) .section-subcontainer {
   flex-direction: row-reverse;
 }
 
-.section-subcontainer img {
+.section-subcontainer .home-img {
   max-height: 50%;
   width: -webkit-fill-available;
   object-fit: scale-down;
@@ -37,7 +37,7 @@ section:nth-child(2n + 1) .section-subcontainer {
   justify-content: space-around;
 }
 
-section:nth-child(-n + 3) img {
+section:nth-child(-n + 3) .home-img {
   max-width: 30%;
 }
 
@@ -45,7 +45,7 @@ section:nth-child(-n + 3) .section-description {
   max-width: 60%;
 }
 
-section:nth-child(n + 4) img {
+section:nth-child(n + 4) .home-img {
   max-width: 52%;
 }
 
@@ -79,9 +79,9 @@ section:nth-child(n + 4) .section-description {
     align-items: center;
     gap: 50px;
   }
-  .section-subcontainer img,
-  section:nth-child(-n + 3) img,
-  section:nth-child(n + 4) img {
+  .section-subcontainer .home-img,
+  section:nth-child(-n + 3) .home-img,
+  section:nth-child(n + 4) .home-img {
     max-width: 100%;
     height: 300px;
   }

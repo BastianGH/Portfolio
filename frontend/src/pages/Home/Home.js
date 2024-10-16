@@ -8,7 +8,11 @@ export const Home = () => {
       <section id="about">
         <h2>à propos de moi</h2>
         <div className="section-subcontainer">
-          <img src="./assets/images/Photo-BP.jpg" alt="Bastian PUSSEY" />
+          <img
+            className="home-img"
+            src="./assets/images/Photo-BP.jpg"
+            alt="Bastian PUSSEY"
+          />
           <div className="section-description">
             <p>
               En tant que développeur FullStack, j'aime allier autonomie et
@@ -32,7 +36,11 @@ export const Home = () => {
       <section id="experience">
         <h2>Expérience</h2>
         <div className="section-subcontainer">
-          <img src="./assets/images/logo-iris.png" alt="Iris Digital" />
+          <img
+            className="home-img"
+            src="./assets/images/logo-iris.png"
+            alt="Iris Digital"
+          />
           <div className="section-description">
             <p>
               J'ai eu la chance de travailler pour Iris Digital, une startup
@@ -56,7 +64,11 @@ export const Home = () => {
       <section id="realisations">
         <h2>Réalisations</h2>
         <div className="section-subcontainer">
-          <img src="./assets/images/Artisanat-Van.png" alt="Artisanat Van" />
+          <img
+            className="home-img"
+            src="./assets/images/Artisanat-Van.png"
+            alt="Artisanat Van"
+          />
           <div className="section-description">
             <p>
               Mon parcours est marqué par deux projets professionnels et
@@ -81,7 +93,11 @@ export const Home = () => {
       <section id="tools">
         <h2>Mes outils</h2>
         <div className="section-subcontainer">
-          <img src="./assets/images/Github.png" alt="Github BastianGH" />
+          <img
+            className="home-img"
+            src="./assets/images/Github.png"
+            alt="Github BastianGH"
+          />
           <div className="section-description">
             <p>
               Je m'appuie sur une boîte à outils variée qui inclut Visual Studio
