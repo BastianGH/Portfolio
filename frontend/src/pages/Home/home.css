@@ -7,7 +7,7 @@ section {
   padding-bottom: 3.5rem;
 }
 
-section h2 {
+.home-section-title {
   padding-bottom: 1.5rem;
   border-bottom: 1px solid white;
 }

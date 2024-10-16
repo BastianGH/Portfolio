@@ -6,7 +6,7 @@ export const Home = () => {
     <div>
       <h1>Voici Mon Portfolio</h1>
       <section id="about">
-        <h2>à propos de moi</h2>
+        <h2 className="home-section-title">à propos de moi</h2>
         <div className="section-subcontainer">
           <img
             className="home-img"
@@ -34,7 +34,7 @@ export const Home = () => {
         </div>
       </section>
       <section id="experience">
-        <h2>Expérience</h2>
+        <h2 className="home-section-title">Expérience</h2>
         <div className="section-subcontainer">
           <img
             className="home-img"
@@ -62,7 +62,7 @@ export const Home = () => {
         </div>
       </section>
       <section id="realisations">
-        <h2>Réalisations</h2>
+        <h2 className="home-section-title">Réalisations</h2>
         <div className="section-subcontainer">
           <img
             className="home-img"
@@ -91,7 +91,7 @@ export const Home = () => {
         </div>
       </section>
       <section id="tools">
-        <h2>Mes outils</h2>
+        <h2 className="home-section-title">Mes outils</h2>
         <div className="section-subcontainer">
           <img
             className="home-img"

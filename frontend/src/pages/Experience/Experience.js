@@ -8,6 +8,7 @@ export const Experience = () => {
       <section>
         <div className="xp-title">
           <h2>Iris Digital</h2>
+          <span className="xp-title-line"></span>
           <span className="poste">Développeur FullStack</span>
         </div>
 

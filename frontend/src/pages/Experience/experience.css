@@ -1,26 +1,55 @@
 .xp-title {
-  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 1px solid white;
 }
-
-.xp-title span {
-  position: absolute;
-  left: 10rem;
-  top: 0.4rem;
+.xp-title-line {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
 }
-
-.xp-title span::before {
-  content: "";
-  border: 1px solid white;
-  display: block;
-  width: 15px;
-  position: absolute;
-  left: -1.8rem;
-  top: 0.8rem;
-}
-
 .xp-img {
   float: left;
   width: 20%;
   margin-right: 2rem;
   border-radius: 25px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .xp-title span {
+    font-size: 1.2rem;
+  }
+
+  .xp-title span::before {
+    top: 1rem;
+  }
+
+  .xp-content p {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .xp-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-bottom: 15px;
+  }
+  .xp-title h2 {
+    margin: 0;
+  }
+  .xp-title-line {
+    display: none;
+  }
+  .xp-img {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .xp-content {
+    display: flex;
+    flex-direction: column;
+  }
 }
