@@ -3,6 +3,7 @@ header {
   justify-content: space-between;
   padding: 2rem 5rem;
   background-color: #226;
+  position: relative;
 }
 
 .title-name {
@@ -24,4 +25,74 @@ header {
   list-style: none;
   font-size: 1.2rem;
   font-weight: 500;
+}
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .header-nav {
+    display: none;
+  }
+  .icon {
+    display: block;
+  }
+  .burger-icon,
+  .cross-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40px;
+    width: 40px;
+  }
+  .burger-icon div,
+  .cross-icon div {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+  }
+
+  .burger-icon div {
+    width: 100%;
+  }
+  .cross-icon div {
+    transform-origin: left;
+    width: 51px;
+  }
+  .cross-icon div:first-child {
+    rotate: 45deg;
+  }
+  .cross-icon div:last-child {
+    rotate: 315deg;
+  }
+
+  .burger-menu {
+    position: absolute;
+    bottom: -210px;
+    left: 0;
+    right: 0;
+    background-color: #226;
+    z-index: 1;
+  }
+  .header-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 0;
+  }
+  .header-nav-list li {
+    position: relative;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-nav-list li:not(:last-child)::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 1px;
+  }
 }
