@@ -46,23 +46,25 @@ function Header() {
           )}
         </div>
       </header>
-      {burgerState ? (
-        <nav className="burger-menu">
-          <ul className="header-nav-list">
-            <li>
-              <NavLink to="about">À Propos de moi</NavLink>
-            </li>
-            <li>
-              <NavLink to="experience">Expérience</NavLink>
-            </li>
-            <li>
-              <NavLink to="achievements">Réalisations</NavLink>
-            </li>
-          </ul>
-        </nav>
-      ) : (
-        <></>
-      )}
+      <nav className={`burger-menu ${burgerState ? "open" : "closed"}`}>
+        <ul className="header-nav-list">
+          <li>
+            <NavLink to="about" onClick={burgerMenu}>
+              À Propos de moi
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="experience" onClick={burgerMenu}>
+              Expérience
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="achievements" onClick={burgerMenu}>
+              Réalisations
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 }

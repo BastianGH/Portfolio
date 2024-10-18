@@ -15,11 +15,11 @@ footer {
   align-items: center;
   gap: 10px;
   border-bottom: rgba(0, 0, 0, 0) solid 1px;
-  transition: border-color 0.5s ease-out;
+  transition: border-color 0.2s ease-out;
 }
 .footer-link:hover {
   border-color: white;
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 @media screen and (max-width: 500px) {
