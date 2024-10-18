@@ -3,9 +3,6 @@ header {
   justify-content: space-between;
   padding: 2rem 5rem;
   background-color: #226;
-  /* position: sticky;
-  top: 0;
-  height: 50px; */
 }
 
 .title-name,
@@ -29,9 +26,20 @@ header {
   padding: 0;
   margin: 0;
   list-style: none;
-  font-size: 1.2rem;
   font-weight: 500;
 }
+
+.header a {
+  color: #ddc;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-out;
+}
+.header a:hover {
+  color: #fff;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in;
+}
+
 .icon {
   display: none;
 }

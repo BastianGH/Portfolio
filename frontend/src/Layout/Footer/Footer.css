@@ -14,6 +14,12 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
+  border-bottom: rgba(0, 0, 0, 0) solid 1px;
+  transition: border-color 0.5s ease-out;
+}
+.footer-link:hover {
+  border-color: white;
+  transition: all 0.5s ease-in;
 }
 
 @media screen and (max-width: 500px) {

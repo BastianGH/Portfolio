@@ -65,11 +65,21 @@ section:nth-child(n + 4) .section-description {
 
 .section-link {
   align-self: center;
+  text-align: center;
+  width: 35%;
   background-color: #339;
   padding: 1rem 2rem;
   border-radius: 50px;
   font-size: 1.2em;
   font-weight: bold;
+  transition: width, background-color, color, 0.5s ease-out;
+}
+
+.section-link:hover {
+  background-color: #fff;
+  color: #339;
+  width: 40%;
+  transition: all 0.5s ease-in;
 }
 
 @media screen and (max-width: 1000px) {
