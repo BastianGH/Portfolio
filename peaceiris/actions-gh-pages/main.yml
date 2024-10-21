@@ -24,13 +24,14 @@ jobs:
         working-directory: ./frontend
         run: npm run build
 
-      - name: Move build files to root
+      - name: Move build files to docs
         run: |
-          rm -rf ./*
-          mv ./frontend/build/* ./
+          rm -rf ./docs
+          mkdir docs
+          mv ./frontend/build/* ./docs/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./docs
