@@ -9,7 +9,7 @@ function CarouselComponent({ images }) {
           <Carousel.Item>
             <img
               src={`../../assets/images/carousel/${image}.png`}
-              alt={`image ${index}`}
+              alt={`Slide ${index}`}
             />
           </Carousel.Item>
         ))}

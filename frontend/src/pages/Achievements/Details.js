@@ -21,7 +21,7 @@ export const Details = () => {
     );
     if (achievementDetails.length < 1) navigate("/404");
     setAchievement(achievementDetails[0]);
-  }, [id]);
+  }, [id, navigate]);
 
   return (
     <div>
