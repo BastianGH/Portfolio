@@ -1,38 +1,54 @@
-name: Deploy Site
+name: Node.js CI
 
 on:
   push:
-    branches:
-      - main # ou la branche depuis laquelle tu déploies
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-      - name: Set up Node.js
+    steps:
+      - uses: actions/checkout@v4
+
+      # Naviguer dans le sous-dossier `frontend`
+      - name: Change directory to /frontend
+        working-directory: ./frontend # Assure-toi que le chemin est correct
+        run: pwd # Cette commande affiche le répertoire actuel dans les logs, utile pour vérifier
+
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
 
-      - name: Navigate to frontend directory
-        working-directory: ./frontend # Assure-toi que ce chemin est correct
-        run: pwd # Cette étape affiche le répertoire courant dans les logs, pour vérifier
-
+      # Installer les dépendances dans le dossier `frontend`
       - name: Install dependencies
-        working-directory: ./frontend # Indiquer le sous-dossier ici aussi
-        run: npm install
+        working-directory: ./frontend # Assure-toi de toujours pointer vers le bon dossier
+        run: npm ci
 
-      - name: Build the project
-        working-directory: ./frontend # Indiquer le sous-dossier ici aussi
-        run: npm run build
+      # Build le projet dans `frontend`
+      - name: Build project
+        working-directory: ./frontend
+        run: npm run build --if-present
 
-      # Si tu déploies sur GitHub Pages, tu peux ajouter une étape pour ça
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./frontend/build # Le dossier de build à déployer
+      # Tester le projet (optionnel selon tes besoins)
+      - name: Run tests
+        working-directory: ./frontend
+        run: npm test
+
+      # Déployer avec gh-pages
+      - name: Deploy with gh-pages
+        working-directory: ./frontend # Toujours pointer vers `frontend`
+        run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
