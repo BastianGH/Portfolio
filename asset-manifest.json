@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://bastiangh.github.io/Portfolio/static/css/main.6aa377d9.css",
-    "main.js": "https://bastiangh.github.io/Portfolio/static/js/main.6699842e.js",
-    "static/js/453.8ab44547.chunk.js": "https://bastiangh.github.io/Portfolio/static/js/453.8ab44547.chunk.js",
-    "index.html": "https://bastiangh.github.io/Portfolio/index.html",
-    "main.6aa377d9.css.map": "https://bastiangh.github.io/Portfolio/static/css/main.6aa377d9.css.map",
-    "main.6699842e.js.map": "https://bastiangh.github.io/Portfolio/static/js/main.6699842e.js.map",
-    "453.8ab44547.chunk.js.map": "https://bastiangh.github.io/Portfolio/static/js/453.8ab44547.chunk.js.map"
+    "main.css": "https://bastiangh.github.io/static/css/main.6aa377d9.css",
+    "main.js": "https://bastiangh.github.io/static/js/main.c7eebf1d.js",
+    "static/js/453.8ab44547.chunk.js": "https://bastiangh.github.io/static/js/453.8ab44547.chunk.js",
+    "index.html": "https://bastiangh.github.io/index.html",
+    "main.6aa377d9.css.map": "https://bastiangh.github.io/static/css/main.6aa377d9.css.map",
+    "main.c7eebf1d.js.map": "https://bastiangh.github.io/static/js/main.c7eebf1d.js.map",
+    "453.8ab44547.chunk.js.map": "https://bastiangh.github.io/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6aa377d9.css",
-    "static/js/main.6699842e.js"
+    "static/js/main.c7eebf1d.js"
   ]
 }
