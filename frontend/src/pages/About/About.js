@@ -8,7 +8,7 @@ export const About = () => {
       <section>
         <div className="about-content">
           <img
-            src={`${process.env.PUBLIC_URL}/assets/images/photo-BP.jpg`}
+            src={`${process.env.PUBLIC_URL}/assets/images/Photo-BP.jpg`}
             alt="Bastian PUSSEY"
             className="about-img"
           />

@@ -10,7 +10,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src={`${process.env.PUBLIC_URL}/assets/images/photo-BP.jpg`}
+            src={`${process.env.PUBLIC_URL}/assets/images/Photo-BP.jpg`}
             alt="Bastian PUSSEY"
           />
           <div className="section-description">
@@ -38,7 +38,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src={`${process.env.PUBLIC_URL}/assets/images/logo-iris.png`}
+            src={`${process.env.PUBLIC_URL}/assets/images/Logo-Iris.png`}
             alt="Iris Digital"
           />
           <div className="section-description">

@@ -19,13 +19,13 @@ function Header() {
         <nav className="header-nav">
           <ul className="header-nav-list">
             <li>
-              <NavLink to="about">À Propos de moi</NavLink>
+              <NavLink to="Portfolio/about">À Propos de moi</NavLink>
             </li>
             <li>
-              <NavLink to="experience">Expérience</NavLink>
+              <NavLink to="Portfolio/experience">Expérience</NavLink>
             </li>
             <li>
-              <NavLink to="achievements">Réalisations</NavLink>
+              <NavLink to="Portfolio/achievements">Réalisations</NavLink>
             </li>
           </ul>
         </nav>
@@ -49,17 +49,17 @@ function Header() {
       <nav className={`burger-menu ${burgerState ? "open" : "closed"}`}>
         <ul className="header-nav-list">
           <li>
-            <NavLink to="about" onClick={burgerMenu}>
+            <NavLink to="Portfolio/about" onClick={burgerMenu}>
               À Propos de moi
             </NavLink>
           </li>
           <li>
-            <NavLink to="experience" onClick={burgerMenu}>
+            <NavLink to="Portfolio/experience" onClick={burgerMenu}>
               Expérience
             </NavLink>
           </li>
           <li>
-            <NavLink to="achievements" onClick={burgerMenu}>
+            <NavLink to="Portfolio/achievements" onClick={burgerMenu}>
               Réalisations
             </NavLink>
           </li>

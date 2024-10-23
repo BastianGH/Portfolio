@@ -5,10 +5,13 @@ export const PageNotFound = () => {
   return (
     <div className="pagenotfound">
       <h1>Ugh, seems you got in quite a dark place... Are you lost buddy ?</h1>
-      <img src="assets/images/Dennis_SpongeBob_Movie.webp" alt="" />
+      <img
+        src={`${process.env.PUBLIC_URL}/assets/images/Dennis_SpongeBob_Movie.webp`}
+        alt="thug"
+      />
       <div className="notfound-link">
         <span>Come back to the right way,</span>
-        <Link to="/">HERE</Link>
+        <Link to="/Portfolio">HERE</Link>
       </div>
     </div>
   );

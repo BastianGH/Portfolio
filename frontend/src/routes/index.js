@@ -12,12 +12,12 @@ function Routing() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/achievements/:id" element={<Details />} />
-        <Route path="/about" element={<About />} />
-        <Route path="*" element={<PageNotFound />} />
+        <Route path="/Portfolio/" element={<Home />} />
+        <Route path="/Portfolio/experience" element={<Experience />} />
+        <Route path="/Portfolio/achievements" element={<Achievements />} />
+        <Route path="/Portfolio/achievements/:id" element={<Details />} />
+        <Route path="/Portfolio/about" element={<About />} />
+        <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </>
   );

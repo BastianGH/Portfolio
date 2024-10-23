@@ -7,7 +7,7 @@ import "./card.css";
 
 function Card({ id, img, title, desc, github, link }) {
   return (
-    <Link to={`/achievements/${id}`}>
+    <Link to={`${id}`}>
       <figure>
         <img
           src={`${process.env.PUBLIC_URL}/assets/images/poster/${img}`}
