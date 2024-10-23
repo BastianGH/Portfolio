@@ -10,7 +10,7 @@ function Card({ id, img, title, desc, github, link }) {
     <Link to={`/achievements/${id}`}>
       <figure>
         <img
-          src={`assets/images/poster/${img}`}
+          src={`${process.env.PUBLIC_URL}/assets/images/poster/${img}`}
           alt={title}
           className="card-img"
         />

@@ -10,7 +10,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src="./assets/images/Photo-BP.jpg"
+            src={`${process.env.PUBLIC_URL}/assets/images/photo-BP.jpg`}
             alt="Bastian PUSSEY"
           />
           <div className="section-description">
@@ -38,7 +38,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src="./assets/images/logo-iris.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/logo-iris.png`}
             alt="Iris Digital"
           />
           <div className="section-description">
@@ -66,7 +66,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src="./assets/images/Artisanat-Van.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Artisanat-Van.png`}
             alt="Artisanat Van"
           />
           <div className="section-description">
@@ -95,7 +95,7 @@ export const Home = () => {
         <div className="section-subcontainer">
           <img
             className="home-img"
-            src="./assets/images/Github.png"
+            src={`${process.env.PUBLIC_URL}/assets/images/Github.png`}
             alt="Github BastianGH"
           />
           <div className="section-description">
