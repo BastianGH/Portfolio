@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <header className="header">
-        <NavLink to="/">
+        <NavLink to="Portfolio/">
           <span className="title-name">Bastian PUSSEY</span>
           <span className="title-abbreviated">BP</span>
         </NavLink>

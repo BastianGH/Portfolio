@@ -123,4 +123,7 @@ section:nth-child(n + 4) .section-description {
   .section-description a {
     font-size: 1.4rem;
   }
+  .section-link {
+    width: 80%;
+  }
 }

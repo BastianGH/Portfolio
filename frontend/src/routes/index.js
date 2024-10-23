@@ -17,7 +17,7 @@ function Routing() {
         <Route path="/Portfolio/achievements" element={<Achievements />} />
         <Route path="/Portfolio/achievements/:id" element={<Details />} />
         <Route path="/Portfolio/about" element={<About />} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="/Portfolio/*" element={<PageNotFound />} />
       </Routes>
     </>
   );
