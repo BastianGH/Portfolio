@@ -14,7 +14,7 @@ export const Experience = () => {
 
         <div className="xp-content">
           <img
-            src="./assets/images/logo-iris.png"
+            src={`${process.env.PUBLIC_URL}assets/images/logo-iris.png`}
             alt="Iris Digital"
             className="xp-img"
           />

@@ -8,7 +8,7 @@ function CarouselComponent({ images }) {
         images.map((image, index) => (
           <Carousel.Item>
             <img
-              src={`../../assets/images/carousel/${image}.png`}
+              src={`${process.env.PUBLIC_URL}/assets/images/carousel/${image}.png`}
               alt={`Slide ${index}`}
             />
           </Carousel.Item>
